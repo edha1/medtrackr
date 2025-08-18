@@ -54,3 +54,9 @@ Here are some screenshots showcasing the app’s interface and functionality:
 
 ## ⚠️ Privacy Disclaimer
 This project is a demo for educational purposes only. It is **not intended for real-world use** due to the handling of sensitive medication and personal health data.
+
+## 🛠️ Work in Progress
+This project still requires some further development. Upcoming improvements include:
+- Adding "Resend Verification Code" functionality
+- Double-checking and fixing potential bugs
+- Further enhancing security and real-time features
