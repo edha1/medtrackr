@@ -59,4 +59,5 @@ This project is a demo for educational purposes only. It is **not intended for r
 This project still requires some further development. Upcoming improvements include:
 - Adding "Resend Verification Code" functionality
 - Double-checking and fixing potential bugs
+- Improving exception handling and throwing more precise errors
 - Further enhancing security and real-time features
