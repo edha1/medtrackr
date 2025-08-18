@@ -1,4 +1,4 @@
-package com.triptrakr.triptrakr.filters;
+package com.medtrackr.medtrackr.filters;
 
 import java.io.IOException;
 
