@@ -60,14 +60,11 @@ public class AuthenticationService {
         User savedUser = userRep.save(user);
         sendVerificationEmail(user);
         
-        // auto-login: load user and generate JWT
         return "Registration successful, please verify email before logging in"; 
     }
 
     public AuthResponse authenticate(LoginUserDto input) {
-        System.out.println("here"); 
         User user = userRep.findByUsername(input.getUsername());
-        System.out.println("here2"); 
 
         if (user == null){
             throw new RuntimeException("Email doesn't exist"); 
@@ -85,7 +82,6 @@ public class AuthenticationService {
                 )
             );
 
-        System.out.println("here3"); 
         // load user details and generate JWT
         UserDetails userDetails = customUserDetailsService.loadUserByUsername(input.getUsername());
         String jwtToken = jwtService.generateToken(userDetails.getUsername());
