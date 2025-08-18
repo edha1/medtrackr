@@ -40,16 +40,16 @@
 
 Here are some screenshots showcasing the app’s interface and functionality:
 
-![Home Page](path/to/login-screenshot.png)  
+![Home Page](demo-images/Home page.png)  
 *Home Page interface*
 
-![Register Page](path/to/login-screenshot.png)  
+![Register Page](demo-images/Profile Page.png)  
 *Register and login interface*
 
-![Personal Profile Page](path/to/dashboard-screenshot.png)  
+![Personal Profile Page](demo-images/Register page.png)  
 *Personal Profile Page to see information*
 
-![Save Medication](path/to/reminder-screenshot.png)  
+![Save Medication](demo-images/Save Medications.png)  
 *Page to save medications*
 
 ## ⚠️ Privacy Disclaimer
