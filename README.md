@@ -4,7 +4,7 @@
 
 ---
 
-> ⚠️ **Note:** This repository contains a demo version of the project. The full application requires database setup and email configuration. The code is included to showcase architecture, features, and implementation.
+> ⚠️ **Note:** This repository contains a demo version of the project that cannot be run directly. The full application requires database setup and email configuration. The code is included to showcase architecture, features, and implementation.
 
 ## ✨ Features
 
