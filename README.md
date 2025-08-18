@@ -1,6 +1,6 @@
 # 💊 MedTrackr
 
-**MedTrackr** is a full-stack application built with **Spring Boot** (backend) and **React** (frontend) that helps users **save medications and receive reminders** in real time. It demonstrates features such as multithreading, WebSockets, JWT authentication, and email verification.
+**MedTrackr** is a full-stack application built with **Spring Boot** (backend) and **React** (frontend) that helps users **save medications and receive reminders** in real time. It demonstrates features such as WebSockets, JWT authentication, and email verification.
 
 ---
 
