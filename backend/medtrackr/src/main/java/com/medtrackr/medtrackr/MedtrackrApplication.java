@@ -1,0 +1,13 @@
+package com.medtrackr.medtrackr;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MedtrackrApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MedtrackrApplication.class, args);
+	}
+
+}

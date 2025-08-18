@@ -1,0 +1,50 @@
+.site-header {
+  background: linear-gradient(to bottom, white, #f8ecf1);
+  color: rgba(168, 50, 88, 0.5);
+  display: flex;              
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;         
+  box-sizing: border-box;
+  box-shadow: 0 0 15px hsl(339, 85%, 82%) , 0 0 30px #f290b2 ;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.site-header h1 {
+  color: #a83258;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.site-header div {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.site-header button {
+    background-color: #a83258;
+    color: white; 
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(237, 167, 190, 0.7);
+    cursor: pointer;
+    margin-top: 15px;
+    width: 150px;
+    transition: transform 0.1s ease, box-shadow 0.25s ease;
+    text-align: center;
+    align-items: center;
+}
+
+.site-header button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 10px rgba(168, 50, 88, 0.7);
+}

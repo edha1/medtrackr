@@ -1,0 +1,37 @@
+/* Widgets css */
+
+.card {
+  cursor: pointer;
+  width: 180px;
+  height: 180px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(168, 50, 88, 0.5); /* stronger pink shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white; /* softer but slightly deeper pink */
+  user-select: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 14px 30px rgba(168, 50, 88, 0.7);
+}
+
+.card p {
+  display: flex;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #6a1b3e; /* richer dark pink */
+  text-shadow: 0 1px 1px rgba(255 255 255 / 0.7);
+}
+
+.grid{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
