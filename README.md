@@ -13,17 +13,14 @@
   - Email verification via **JavaMail**. *(Requires configuration in `application.properties`.)*  
 
 - **💊 Medication Management**  
-  - Save and manage multiple medications concurrently using **multithreading**.  
+  - Save multiple medications using **multithreading**.  
   - Real-time updates using **WebSockets**.  
 
 - **⏰ Real-Time Reminders**  
   - Notifications and reminders for medications in real-time.  
 
 - **🗄️ Database Integration**  
-  - Uses **MySQL** to store user and medication data. *(Requires configuration in `application.properties`.)*  
-
-- **⚡ State Management**  
-  - Efficient state handling on the frontend with **React**.  
+  - Uses **MySQL** to store user and medication data. *(Requires configuration in `application.properties`.)*    
 
 ---
 
