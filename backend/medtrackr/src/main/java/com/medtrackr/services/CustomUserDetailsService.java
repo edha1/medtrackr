@@ -30,7 +30,7 @@ public class CustomUserDetailsService implements UserDetailsService{
         }
         
         List<GrantedAuthority> authorities = new ArrayList<>(); // granted authority represents a permission or role granted to an authenticated user  
-        return new CustomUserDetails(user.getUsername(), user.getPassword(), user.getEmail(), authorities, true); 
+        return new CustomUserDetails(user.getUsername(), user.getPassword(), user.getEmail(), authorities, user.getEnabled()); 
     }
     
 
