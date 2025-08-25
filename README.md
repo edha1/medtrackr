@@ -50,7 +50,7 @@ Here are some screenshots showcasing the app’s interface and functionality:
 *Page to save medications*
 
 ## ⚠️ Privacy Disclaimer
-This project is a demo for educational purposes only. It is **not intended for real-world use** due to the handling of sensitive medication and personal health data.
+This project is a demo for educational purposes, due to the handling of sensitive medication and personal health data.
 
 ## 🛠️ Work in Progress
 This project still requires some further development. Upcoming improvements include:
