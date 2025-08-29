@@ -55,9 +55,9 @@ This project is a demo for educational purposes, due to the handling of sensitiv
 ## 🛠️ Further Enhancement
 This project still requires some further development. Upcoming improvements include:
 - Adding "Resend Verification Code" functionality
-- Double-checking and fixing potential bugs
+- Fixing potential bugs
 - Improving exception handling and throwing more precise errors
-- **Threading:** Current per-medication threads are not scalable. Use `ScheduledExecutorService` or Spring `@Scheduled`.
+- **Threading:** Current per-medication threads are not scalable. Could use Spring `@Scheduled`.
 - **Persistence:** Reminders are lost on server restart. Consider storing next reminder in DB or using Quartz.
 - **Async I/O:** Reminder delivery currently blocks threads; should be async for better performance.
 - Further enhancing security and real-time features
